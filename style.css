@@ -29,7 +29,7 @@ body {
     max-width: 1200px;
 
     display: flex;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .card {
@@ -181,6 +181,10 @@ body {
     margin: 0 15px;
 }
 
+.card .card-content .card-details .card-share .popup-share .button {
+    display: none;
+}
+
 .attribution {
     height: 30px;
 
@@ -237,6 +241,7 @@ body {
 
     .card .card-content .card-details .card-share .popup-share .button {
         margin-left: auto;
+        display: block;
     }
 }
 
