@@ -245,6 +245,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 425px) {
+    .attribution {
+        font-size: 13px;
+    }
+}
+
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
